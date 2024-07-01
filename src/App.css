@@ -1,0 +1,40 @@
+.app {
+  text-align: center;
+}
+
+.student-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.list {
+  border: 1px solid #000;
+  min-width: 300px;
+  min-height: 500px;
+  padding: 10px;
+}
+
+.list li {
+  list-style: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #fff;
+  background: #192192;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background: #0f145f;
+}
+
+.btn:active {
+  background: #090c3a;
+}
