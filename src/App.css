@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 50px auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 50vw;
+}
+
+.show-data {
+  text-align: center;
+  padding: 50px;
+}
+
+.background-change {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
